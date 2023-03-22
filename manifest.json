@@ -1,8 +1,12 @@
 {
     "name": "My PWA",
     "short_name": "My PWA",
-    "start_url": ".",
+	"description": "Progressive Web App example",
+    "start_url": "./index.html?utm=homescreen",
     "display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#f5f5f5",
+	"theme_color": "#29434d",
     "icons": [
         {
             "src": "icon-192x192.png",
@@ -14,5 +18,11 @@
             "type": "image/png",
             "sizes": "512x512"
         }
-    ]
+    ],
+	"author": {
+		"name": "scian0204",
+		"website": "https://scian0204.github.io",
+		"github": "https://github.com/scian0204",
+		"source-repo": "https://github.com/scian0204/ProgressiveWebAppEx"
+	}
 }
